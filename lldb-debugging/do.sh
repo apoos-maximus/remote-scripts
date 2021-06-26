@@ -8,7 +8,7 @@ cyan=`tput setaf 6`
 white=`tput setaf 7`
 reset=`tput sgr0`
 
-clang++ sample.cpp -o debug-proc
+clang++-12+ sample.cpp -o debug-proc
 
 ./debug-proc > /dev/null & disown
 
